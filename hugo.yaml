@@ -3,16 +3,6 @@ languageCode: en-us
 title: 0xmusashi
 theme: PaperMod
 
-params:
-  defaultTheme: dark
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: >-
-      Welcome to 0xmusashi blog.      
-  socialIcons:
-    - name: email
-      url: 'mailto:musashihp42@gmail.com'
-
 assets:
   favicon16x16: /assets/favicon-16x16.png
   favicon32x32: /assets/favicon-32x32.png
@@ -30,3 +20,7 @@ menu:
     name: Archives
     url: /posts/
     weight: 20
+  - identifier: about
+    name: About
+    url: /about/
+    weight: 30
